@@ -70,7 +70,9 @@ sequenceDiagram
     end
 
 Slave → Master Transmission
-![PIC16F877A Microcontroller](https://github.com/layanbuirat/-Complex-calculator-project-4-of-real-time/blob/main/slave.png)
+<div align="center">
+  <img src="slave.png" width="800" alt="Landing Page Demo">
+</div>
 sequenceDiagram
     Slave->>Master: Set 4-bit result on PORTC
     Slave->>Master: Clock pulse (RB1)
