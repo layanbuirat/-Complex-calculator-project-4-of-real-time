@@ -71,7 +71,7 @@ sequenceDiagram
 
 Slave → Master Transmission
 <div align="center">
-  <img src="slave.png" width="800" alt="slave">
+  <img src="https://github.com/layanbuirat/-Complex-calculator-project-4-of-real-time/blob/main/slave.png" width="800" alt="slave">
 </div>
 sequenceDiagram
     Slave->>Master: Set 4-bit result on PORTC
