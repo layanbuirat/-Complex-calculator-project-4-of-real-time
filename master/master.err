@@ -1,0 +1,13 @@
+Warning[205] C:\USERS\ADMIN\DESKTOP\PROJECT4_6_7\MASTER\MASTER.ASM 1 : Found directive in column 1. (PROCESSOR)
+Message[302] C:\USERS\ADMIN\DESKTOP\PROJECT4_6_7\MASTER\MASTER.ASM 167 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[305] C:\USERS\ADMIN\DESKTOP\PROJECT4_6_7\MASTER\LCDIS.INC 27 : Using default destination of 1 (file).
+Message[305] C:\USERS\ADMIN\DESKTOP\PROJECT4_6_7\MASTER\LCDIS.INC 37 : Using default destination of 1 (file).
+Message[305] C:\USERS\ADMIN\DESKTOP\PROJECT4_6_7\MASTER\LCDIS.INC 62 : Using default destination of 1 (file).
+Message[302] C:\USERS\ADMIN\DESKTOP\PROJECT4_6_7\MASTER\MASTER.ASM 594 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ADMIN\DESKTOP\PROJECT4_6_7\MASTER\MASTER.ASM 595 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ADMIN\DESKTOP\PROJECT4_6_7\MASTER\MASTER.ASM 596 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ADMIN\DESKTOP\PROJECT4_6_7\MASTER\MASTER.ASM 597 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ADMIN\DESKTOP\PROJECT4_6_7\MASTER\MASTER.ASM 600 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ADMIN\DESKTOP\PROJECT4_6_7\MASTER\MASTER.ASM 601 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ADMIN\DESKTOP\PROJECT4_6_7\MASTER\MASTER.ASM 603 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ADMIN\DESKTOP\PROJECT4_6_7\MASTER\MASTER.ASM 607 : Register in operand not in bank 0.  Ensure that bank bits are correct.

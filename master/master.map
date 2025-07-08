@@ -1,0 +1,178 @@
+MPLINK 4.41, Linker
+Linker Map File - Created Sun Jul 06 19:43:02 2025
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000004    program   0x00069a
+    .config_2007_MASTER.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x000350      
+                            0x002007    0x002007      
+            847 out of 8454 program addresses used, program memory utilization is 10%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+            Boot_Sequence   0x00023d    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+         Check_Double_Tap   0x000031    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Check_NUM1_Cursor   0x00025c    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Check_NUM2_Cursor   0x000280    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+           Check_Tap_Loop   0x000036    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+               Clear_GPRs   0x000232    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                Clear_LCD   0x0000a7    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+         Clear_NUM1_Digit   0x0002eb    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+         Clear_NUM2_Digit   0x000300    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+       Continue_NUM1_Loop   0x000261    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+       Continue_NUM2_Loop   0x000285    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Cursor_To_Confirm   0x00031a    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+           Cursor_To_Frac   0x00030d    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+             Display_NUM1   0x0000d9    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+             Display_NUM2   0x00013a    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+      Display_NUM2_Header   0x000127    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          Exit_NUM1_Input   0x000263    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          Exit_NUM2_Input   0x000287    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Handle_Double_Tap   0x000308    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Handle_NUM1_Input   0x000247    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Handle_NUM2_Input   0x00026b    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Handle_Single_Tap   0x0002d0    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                 ISR_Exit   0x000325    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          ISR_Result_Mode   0x0002c4    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+              ISR_Service   0x0002b0    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                Inc_Digit   0x0002d5    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                 Inc_NUM1   0x0002de    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+            Inc_NUM1_Loop   0x0002e5    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                 Inc_NUM2   0x0002f3    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+            Inc_NUM2_Loop   0x0002fa    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+              Init_System   0x00021b    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+               Main_Entry   0x00032e    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          Main_Event_Loop   0x000331    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+         Move_Cursor_NUM1   0x000121    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+         Move_Cursor_NUM2   0x000182    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          NUM1_Input_Loop   0x00024f    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          NUM2_Input_Loop   0x000273    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                Next_NUM1   0x0002ec    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                Next_NUM2   0x000301    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+            Pause1ms_Loop   0x000007    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+            Pause500ms_L1   0x000013    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+            Pause500ms_L2   0x000015    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+            Pause500ms_L3   0x000017    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                Pause_1ms   0x000005    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                 Pause_2s   0x00001a    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+              Pause_500ms   0x00000b    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+      Receive_From_CoProc   0x000054    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                Recv_Loop   0x00005d    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Reset_NUM2_Buffer   0x00001f    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          Reset_NUM2_Loop   0x000023    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+      Reset_Result_Buffer   0x000028    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Reset_Result_Loop   0x00002c    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+         Result_Mode_Loop   0x000294    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                Send_Loop   0x000044    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+            Set_DISP_Mode   0x0002c1    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+           Set_Double_Tap   0x00003d    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+              Show_Equals   0x000213    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          Show_NUM1_Final   0x0001c1    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          Show_NUM2_Final   0x0001ea    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+              Show_Result   0x000188    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+             Show_Welcome   0x0000af    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+    Switch_To_Result_Mode   0x00028f    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+       Transmit_To_CoProc   0x000040    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+     Update_Result_Screen   0x00029e    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          Wait_CoProc_ACK   0x00004a    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                     inid   0x00008c    program     static C:\Users\Admin\Desktop\project4_6_7\master\LCDIS.INC
+                    loop1   0x00006e    program     static C:\Users\Admin\Desktop\project4_6_7\master\LCDIS.INC
+                    loopX   0x000073    program     static C:\Users\Admin\Desktop\project4_6_7\master\LCDIS.INC
+                    onems   0x00006c    program     static C:\Users\Admin\Desktop\project4_6_7\master\LCDIS.INC
+                   pulseE   0x000077    program     static C:\Users\Admin\Desktop\project4_6_7\master\LCDIS.INC
+                     send   0x00007c    program     static C:\Users\Admin\Desktop\project4_6_7\master\LCDIS.INC
+                      xms   0x000072    program     static C:\Users\Admin\Desktop\project4_6_7\master\LCDIS.INC
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                Pause_1ms   0x000005    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+            Pause1ms_Loop   0x000007    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+              Pause_500ms   0x00000b    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+            Pause500ms_L1   0x000013    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+            Pause500ms_L2   0x000015    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+            Pause500ms_L3   0x000017    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                 Pause_2s   0x00001a    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Reset_NUM2_Buffer   0x00001f    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          Reset_NUM2_Loop   0x000023    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+      Reset_Result_Buffer   0x000028    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Reset_Result_Loop   0x00002c    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+         Check_Double_Tap   0x000031    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+           Check_Tap_Loop   0x000036    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+           Set_Double_Tap   0x00003d    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+       Transmit_To_CoProc   0x000040    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                Send_Loop   0x000044    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          Wait_CoProc_ACK   0x00004a    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+      Receive_From_CoProc   0x000054    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                Recv_Loop   0x00005d    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                    onems   0x00006c    program     static C:\Users\Admin\Desktop\project4_6_7\master\LCDIS.INC
+                    loop1   0x00006e    program     static C:\Users\Admin\Desktop\project4_6_7\master\LCDIS.INC
+                      xms   0x000072    program     static C:\Users\Admin\Desktop\project4_6_7\master\LCDIS.INC
+                    loopX   0x000073    program     static C:\Users\Admin\Desktop\project4_6_7\master\LCDIS.INC
+                   pulseE   0x000077    program     static C:\Users\Admin\Desktop\project4_6_7\master\LCDIS.INC
+                     send   0x00007c    program     static C:\Users\Admin\Desktop\project4_6_7\master\LCDIS.INC
+                     inid   0x00008c    program     static C:\Users\Admin\Desktop\project4_6_7\master\LCDIS.INC
+                Clear_LCD   0x0000a7    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+             Show_Welcome   0x0000af    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+             Display_NUM1   0x0000d9    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+         Move_Cursor_NUM1   0x000121    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+      Display_NUM2_Header   0x000127    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+             Display_NUM2   0x00013a    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+         Move_Cursor_NUM2   0x000182    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+              Show_Result   0x000188    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          Show_NUM1_Final   0x0001c1    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          Show_NUM2_Final   0x0001ea    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+              Show_Equals   0x000213    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+              Init_System   0x00021b    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+               Clear_GPRs   0x000232    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+            Boot_Sequence   0x00023d    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Handle_NUM1_Input   0x000247    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          NUM1_Input_Loop   0x00024f    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Check_NUM1_Cursor   0x00025c    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+       Continue_NUM1_Loop   0x000261    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          Exit_NUM1_Input   0x000263    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Handle_NUM2_Input   0x00026b    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          NUM2_Input_Loop   0x000273    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Check_NUM2_Cursor   0x000280    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+       Continue_NUM2_Loop   0x000285    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          Exit_NUM2_Input   0x000287    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+    Switch_To_Result_Mode   0x00028f    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+         Result_Mode_Loop   0x000294    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+     Update_Result_Screen   0x00029e    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+              ISR_Service   0x0002b0    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+            Set_DISP_Mode   0x0002c1    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          ISR_Result_Mode   0x0002c4    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Handle_Single_Tap   0x0002d0    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                Inc_Digit   0x0002d5    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                 Inc_NUM1   0x0002de    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+            Inc_NUM1_Loop   0x0002e5    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+         Clear_NUM1_Digit   0x0002eb    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                Next_NUM1   0x0002ec    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                 Inc_NUM2   0x0002f3    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+            Inc_NUM2_Loop   0x0002fa    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+         Clear_NUM2_Digit   0x000300    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                Next_NUM2   0x000301    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Handle_Double_Tap   0x000308    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+           Cursor_To_Frac   0x00030d    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+        Cursor_To_Confirm   0x00031a    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+                 ISR_Exit   0x000325    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+               Main_Entry   0x00032e    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+          Main_Event_Loop   0x000331    program     static C:\Users\Admin\Desktop\project4_6_7\master\master.asm
+
+

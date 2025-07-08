@@ -1,0 +1,19 @@
+# MPLAB IDE generated this makefile for use with GNU make.
+# Project: project.mcp
+# Date: Wed Feb 14 01:56:49 2024
+
+AS = MPASMWIN.exe
+CC = 
+LD = mplink.exe
+AR = mplib.exe
+RM = rm
+
+project3.cof : project3.o
+	$(CC) /p16F877A "project3.o" /u_DEBUG /z__MPLAB_BUILD=1 /z__MPLAB_DEBUG=1 /o"project3.cof" /M"project3.map" /W /x
+
+project3.o : project3.asm P16F877A.INC LCDIS.INC
+	$(AS) /q /p16F877A "project3.asm" /l"project3.lst" /e"project3.err" /d__DEBUG=1
+
+clean : 
+	$(CC) "project3.o" "project3.hex" "project3.err" "project3.lst" "project3.cof"
+

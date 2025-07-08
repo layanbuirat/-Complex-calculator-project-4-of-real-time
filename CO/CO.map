@@ -1,0 +1,104 @@
+MPLINK 4.41, Linker
+Linker Map File - Created Sun Jul 06 19:46:22 2025
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000004    program   0x00043a
+        .config_2007_CO.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x000220      
+                            0x002007    0x002007      
+            543 out of 8454 program addresses used, program memory utilization is 6%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+              BRIEF_PAUSE   0x000017    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+               CLEAR_REGS   0x0001f9    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                  CMP_BCD   0x00001a    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                CMP_CYCLE   0x000024    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+               CMP_FINISH   0x00003b    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                COMP_FRAC   0x0000f4    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 COMP_INT   0x0000d9    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+             CONV_BIN_DEC   0x000005    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+             COPY_TO_VAL1   0x000111    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                FRAC_LOOP   0x0000fb    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+               HANDLE_INT   0x000202    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 INIT_DIV   0x0001da    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 INT_EXIT   0x000219    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 INT_LOOP   0x0000de    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+              INVALID_BCD   0x000016    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                MAIN_LOOP   0x000220    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                MOVE_VAL2   0x0000bf    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                NEXT_FRAC   0x000105    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 NEXT_INT   0x0000ea    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+              PAUSE_500MS   0x0001cb    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 PAUSE_L1   0x0001d3    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 PAUSE_L2   0x0001d5    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 PAUSE_L3   0x0001d7    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+          SAVE_SUB_RESULT   0x000069    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                    SETUP   0x0001e5    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+               SET_BORROW   0x000065    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                SHIFT_REM   0x00008d    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+           SHIFT_REM_ZERO   0x000073    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+              STORE_DIGIT   0x00020c    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                  SUB_BCD   0x000046    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+            SUB_BCD_CYCLE   0x00004e    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+            SUB_FRAC_LOOP   0x0000ff    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+             SUB_INT_LOOP   0x0000e4    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 TRANSMIT   0x000136    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+             VAL1_SMALLER   0x000042    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+             CONV_BIN_DEC   0x000005    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+              INVALID_BCD   0x000016    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+              BRIEF_PAUSE   0x000017    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                  CMP_BCD   0x00001a    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                CMP_CYCLE   0x000024    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+               CMP_FINISH   0x00003b    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+             VAL1_SMALLER   0x000042    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                  SUB_BCD   0x000046    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+            SUB_BCD_CYCLE   0x00004e    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+               SET_BORROW   0x000065    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+          SAVE_SUB_RESULT   0x000069    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+           SHIFT_REM_ZERO   0x000073    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                SHIFT_REM   0x00008d    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                MOVE_VAL2   0x0000bf    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 COMP_INT   0x0000d9    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 INT_LOOP   0x0000de    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+             SUB_INT_LOOP   0x0000e4    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 NEXT_INT   0x0000ea    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                COMP_FRAC   0x0000f4    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                FRAC_LOOP   0x0000fb    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+            SUB_FRAC_LOOP   0x0000ff    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                NEXT_FRAC   0x000105    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+             COPY_TO_VAL1   0x000111    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 TRANSMIT   0x000136    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+              PAUSE_500MS   0x0001cb    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 PAUSE_L1   0x0001d3    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 PAUSE_L2   0x0001d5    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 PAUSE_L3   0x0001d7    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 INIT_DIV   0x0001da    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                    SETUP   0x0001e5    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+               CLEAR_REGS   0x0001f9    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+               HANDLE_INT   0x000202    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+              STORE_DIGIT   0x00020c    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                 INT_EXIT   0x000219    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+                MAIN_LOOP   0x000220    program     static C:\Users\Admin\Desktop\project4_6_7\CO\CO.asm
+
+
